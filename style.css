@@ -157,6 +157,9 @@ nav a,button{
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 13px;
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    color: rgb(56, 71, 84);
 }
 .stock-market span {
     display: inline-block;
@@ -197,6 +200,11 @@ nav a,button{
     font-size: 12px;
     font-family :"Source Sans Pro", Arial, Helvetica, sans-serif;
     line-height: 13.8px;
+}
+.exchange-title{
+    color: rgb(109, 123, 134);
+    font-weight: 400px;
+    font-size: 13px;
 }
 .exchange-note p{
     width: 960px;

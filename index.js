@@ -6,7 +6,11 @@
     // Başlığı değiştir
     baslikElementi.textContent = "HALKBANK - TÜRKİYE HALK BANKASI";
   }
-
+  // Başlığı orijinal değerine geri döndüren fonksiyon
+  function resetTitle() {
+    var baslikElementi = document.querySelector('title');
+    baslikElementi.textContent = "Önce Halk, Sonra Bankayız!";
+  }
   // Tarayıcı sekme değişikliğini dinle
   document.addEventListener('visibilitychange', function() {
     // Eğer sekme aktifse fonksiyonu çağır
@@ -18,8 +22,3 @@
     }
   });
 
-  // Başlığı orijinal değerine geri döndüren fonksiyon
-  function resetTitle() {
-    var baslikElementi = document.querySelector('title');
-    baslikElementi.textContent = "Önce Halk, Sonra Bankayız!";
-  }
