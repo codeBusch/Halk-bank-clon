@@ -146,7 +146,9 @@ nav a,button{
     cursor: pointer;
     font-weight: bold; 
 }
-
+#body-img{
+    cursor: pointer;
+}
 .stock-market{
     margin: 0 auto;
     padding: 15px 0;
