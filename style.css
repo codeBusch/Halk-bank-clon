@@ -1,0 +1,182 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 400px;
+    font-family :"Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: #34a6e2; 
+    text-align: center;  
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-family :"Source Sans Pro", Arial, Helvetica, sans-serif;
+}
+nav a{
+    cursor: pointer;
+}
+
+
+.nav-top{
+    padding: 10px 0;
+    margin: 0 auto; /*ortala */
+    width: 70%;
+   height: 40px;
+    text-align: center;
+    
+}
+ .nav-top div{
+   margin-left: 1.5%;
+ 
+} 
+.input-div{
+   
+    display: inline-block;
+    border: solid 1px #fff;
+    border-radius: 8px;
+    padding: 4px;
+    height: 40px;
+    width: 42%;
+
+    vertical-align: top;
+   
+}
+    
+#search-icon{
+    cursor: pointer;
+    margin:  0 8px;
+    vertical-align: middle;
+}
+
+.input-div input {
+    border: none; /* veya border: 0; */
+    background-color: transparent;
+    outline: none; 
+    width: 90%;
+    height: 100%;    
+}
+.nav-products-services{
+    display: inline-block;
+   
+    vertical-align: top;
+    align-items: center;
+    height: 100vh;
+    max-height: 40px;
+    line-height: 16.1px;
+    text-align: center;
+    cursor: pointer;
+}
+.nav-products-services img{
+    width: 20px;
+    height: 29.7px;
+    margin: 0 10px;
+    vertical-align: middle;
+}
+.nav-products-services button{  
+
+    height: 29.7px;
+    vertical-align: middle;
+    margin: 0 8px ;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+    background-color:#34a6e2; 
+}
+#notification{
+    display: inline-block;
+    position: relative;
+    padding-bottom: 8px;
+    vertical-align: top;
+    height: 100vh;
+    max-height: 40px;
+    
+}
+#notification button{
+    vertical-align: top;
+
+}
+.nav-bottom{
+    max-width: 70%;
+    height: 40px;
+    margin: 0 auto; /*ortala */
+    margin-top: 10px;
+    text-align: center;
+}
+.nav-bottom a,
+.nav-bottom button{
+    margin: 0 1%;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#header-ibranch-button {
+    background-image: linear-gradient(78deg,#ff7c48 -14%,#fdac00 97%);
+    color: #fff; /* Metin rengi beyaz olarak ayarlandı, istediğiniz rengi kullanabilirsiniz */
+    padding: 10px 20px; /* İstediğiniz dolgu değerlerini ayarlayın */
+    border: none; /* Kenarlık yok */
+    cursor: pointer;
+    font-weight: bold; /* '600px' yerine 'bold' kullanıldı */
+}
+#header-register-button{
+    background-image: linear-gradient(to right,#3fb8f2 0,#73ddfa 100%);
+    color: #fff; 
+    padding: 10px 20px;
+    
+    border: none;
+    cursor: pointer;
+    font-weight: bold; 
+}
+.stock-market{
+    margin: 0 auto;
+    padding: 15px 0;
+    width: 80%;
+    text-align: center;
+    /*font fmmaily */
+    position: relative;
+}
+.stock-market span {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: top;
+}
+.stock-market div {
+    font-weight: bold;
+    margin-top: 5px;
+}
+.icon-container {
+    display: flex;
+    align-items: center;
+}
+
+/* buton ikonu*/
+.back-button, .next-button {
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+}
+
+.exchange-note{
+    margin: 0 auto;
+    padding: 8px 0;
+    width: 80%;
+    text-align: center;
+    border-top-color: rgb(222, 230, 233);
+    border-top-style: dotted;
+    border-top-width: 1px;
+    color:rgb(109, 123, 134);
+    font-size: 12px;
+    font-family :"Source Sans Pro", Arial, Helvetica, sans-serif;
+    line-height: 13.8px;
+}
+.exchange-note p{
+    width: 960px;
+    margin:0 auto;
+}
+.exchange-note p b{
+    color :rgb(56, 71, 84);
+    font-weight: 600px;
+}
