@@ -1,5 +1,5 @@
  // JavaScript fonksiyonu
- function degistirBaslik() {
+ function changeTitle() {
     // Başlık elementini seç
     var baslikElementi = document.querySelector('title');
 
@@ -11,15 +11,15 @@
   document.addEventListener('visibilitychange', function() {
     // Eğer sekme aktifse fonksiyonu çağır
     if (!document.hidden) {
-      degistirBaslik();
+      changeTitle();
     } else {
       // Sekme değiştiğinde başlığı tekrar orijinaline döndürebilirsiniz.
-      basligiResetle();
+      resetTitle();
     }
   });
 
   // Başlığı orijinal değerine geri döndüren fonksiyon
-  function basligiResetle() {
+  function resetTitle() {
     var baslikElementi = document.querySelector('title');
     baslikElementi.textContent = "Önce Halk, Sonra Bankayız!";
   }
