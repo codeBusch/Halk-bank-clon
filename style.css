@@ -15,7 +15,7 @@ nav{
     font-size: 14px;
     font-family :"Source Sans Pro", Arial, Helvetica, sans-serif;
 }
-nav a{
+nav a,button{
     cursor: pointer;
 }
 
@@ -104,6 +104,7 @@ nav a{
     position: relative;
     display: inline-block;
     margin: auto 0;
+    cursor: pointer;
 }
 .header-notification-icon_dot{
     
